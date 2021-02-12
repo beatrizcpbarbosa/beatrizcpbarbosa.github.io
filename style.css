@@ -1,0 +1,9 @@
+body{
+    background-color: salmon;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.imagemperfil {
+    border-radius: 100px;
+}
