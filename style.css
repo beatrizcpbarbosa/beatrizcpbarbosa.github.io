@@ -1,9 +1,10 @@
 body{
-    background-color: salmon;
+    /*background-color: salmon;*/
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
 
-.imagemperfil {
-    border-radius: 100px;
+#img-perfil {
+    border-radius: 10%;
 }
