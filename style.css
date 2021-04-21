@@ -12,14 +12,16 @@ body{
     color:black
 }
 
+
 /* header */
 
 header{
-    position: absolute;
-    z-index: 1;
+    /* position: absolute;
+    z-index: 1; */
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
     padding: 10px 20px 10px 20px;
     align-items: center;
 }
@@ -36,30 +38,42 @@ header{
 .menu li + li {
     padding-left: 10px;
 }
-
 /* header */
 
 /* main  */
-
-#content-main{
-    position: absolute;
-    text-align: center;
-    top: 250px; 
-    left: 0;
-    right: 0;
-    color:black;
+main {
+    height: 750px;
+    width: 95%;
+    background-color: #eeeeee;
+    margin: 0 auto;
+    display: flex;
 }
 
-#background-main{
-    height: 100vh;
-    width: 50%;
-    background-color: #F8BFE7;
+#content-aside {
+    background-color: #AEB594;
+    height: 750px;
+    width: 35%;
+}
+
+#content-main {
+    text-align: left;
+    color:black;
+    margin-left: 75px;
+    margin-top: 170px;
 }
 
 #content-main p {
-    width: 35%;
-    margin: 0 auto;
+    width: 80%;
+    padding-top: 10px;
+}
+
+#content-main ul {
+    display: flex;
     padding-top: 20px;
+}
+
+#content-main li + li {
+    padding-left: 10px;
 }
 
 /* main  */
@@ -68,7 +82,10 @@ header{
 
 #habilidades {
     height: 400px;
-    background-color: #FFF5BF;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 35px;
+    background-color: #eeeeee;
 }
 
 #habilidades h2 {
@@ -94,93 +111,96 @@ header{
     width: 200px;
 }
 
+
 /* habilidades  */
 
 /* works  */
 
 #work{
-    height: 500px;
-}
-
-#work h2{
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    right: 0;
-    margin: 0 auto; 
-    text-align: center;
-    margin-top: 70px;
-    padding-bottom: 50px;
-}
-
-.conteiner-work{
-    width: 100%;
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    right: 0;
-    margin: 0 auto; 
-    margin-top: 200px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
-}
-
-.paragrafo{
+    height: 400px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 35px;
+    background-color: #eeeeee;
     display: flex;
+    justify-content: space-between;
+}
+
+#work h2 {
+    /* position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0; */
+    /* margin: 0 auto; 
+    text-align: center; */
+    /* margin-top: 70px;
+    padding-bottom: 50px; */
+}
+
+.conteiner-work {
+    /* width: 100%;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: 0 auto; 
+    margin-top: 200px; */
+    
+}
+
+.paragrafo {
+    /* display: flex; */
 }
 
 .conteiner-work p {
-    width: 25%;
+    /* width: 25%; */
 }
 
 .links {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
-#background-work{
-    height: 500px;
-    width: 50%;
-    background-color:#D6DAF5;
-    float: right;
+#content-aside-work {
+    background-color: #AEB594;
+    height: 400px;
+    width: 470px;
 }
 
 /* contact  */
 
 #contact{
-    height: 300px;
-    background-color: #DBFCEF;
+    height: 400px;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 35px;
+    background-color: #eeeeee;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 .conteiner-contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 70%;
+    width: 35%;
 }
 
-.conteiner-contact p {
-    width: 50%;
+.conteiner-contact {
+    width: 35%;
 
 }
 
 #contact h2 {
-    text-align: center;
-    padding-bottom: 40px;
+    /* text-align: center; */
+    
 }
 
 /* footer  */
 
 footer{
     display: flex;
-    height: 70px;
+    height: 50px;
+    width: 95%;
+    margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
 }
