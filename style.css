@@ -134,9 +134,13 @@ main {
     font-weight: 550;
     width: 200px;
 }
+
+/* .conteiner-habilidades div + div {
+    margin-left: 80px;
+} */
 /* habilidades  */
 
-/* works  */
+/* work */
 #work{
     height: 400px;
     width: 95%;
@@ -152,9 +156,9 @@ main {
 #content-work {
     width: 50%;
     margin: 0 auto; 
-    margin-top: 70px;
-   
+    margin-top: 70px;  
 }
+
 #content-work h2 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -179,6 +183,26 @@ main {
     height: 400px;
     width: 470px;
 }
+
+.content-projects {
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.content-projects h3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+.content-projects a {
+    color: white;
+}
+
+.content-projects li {
+  margin-bottom: 15px;
+}
+/* works  */
 
 /* contact  */
 #contact{
@@ -207,7 +231,7 @@ main {
     margin-left: 120px;
 }
 
-#conteiner-contact a{
+#email {
     color: black;
 }
 /* contact  */
@@ -220,4 +244,80 @@ footer{
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+}
+
+footer a {
+    color: black;
+}
+/* footer  */
+
+/* about me */
+
+/* media queries */
+@media screen and (max-width: 1024px) { 
+	main {
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+
+    #content-aside {
+        background-color: #EB8E8E;
+        height: 200px;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    #content-main {
+        margin-top: 30px;
+        text-align: center;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    #habilidades {
+        flex-direction: column;
+    }
+	
+    #habilidades h2 {
+        margin-right: 0px;
+        width: 100%;
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 30px;
+
+    }
+
+    .lista-habilidades h3 {
+        width: 100px;
+    }
+
+    .conteiner-habilidades div + div {
+        margin-left: 80px;
+    }
+
+    #work{
+        flex-direction: column;
+        height: 800px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    #content-work {
+        /* width: 50%;
+        margin: 0 auto; 
+        margin-top: 70px;   */
+        text-align: center;
+        align-self: center;
+    }
+
+    #content-aside-work {
+        background-color: #EB8E8E;
+        border-radius: 0px 0px 10px 10px;
+        height: 400px;
+        width: 100%;
+    }
+    
 }
