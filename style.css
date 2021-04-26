@@ -14,15 +14,12 @@ body{
 
 
 /* header */
-
 header{
-    /* position: absolute;
-    z-index: 1; */
     display: flex;
-    justify-content: space-between;
-    width: 95%;
+    height: 35px;
+    width: 94%;
     margin: 0 auto;
-    padding: 10px 20px 10px 20px;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -44,15 +41,19 @@ header{
 main {
     height: 750px;
     width: 95%;
-    background-color: #eeeeee;
+    background-color: #FAFAFA;
     margin: 0 auto;
     display: flex;
+    box-shadow: 3px 3px 30px #D1D1D1;
+    border-radius: 10px;
 }
 
+
 #content-aside {
-    background-color: #AEB594;
+    background-color: #EB8E8E;
     height: 750px;
     width: 35%;
+    border-radius: 10px 0px 0px 10px;
 }
 
 #content-main {
@@ -60,6 +61,12 @@ main {
     color:black;
     margin-left: 75px;
     margin-top: 170px;
+}
+
+#content-main h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 100px;
 }
 
 #content-main p {
@@ -76,22 +83,43 @@ main {
     padding-left: 10px;
 }
 
+#content-main a {
+    color: black;
+}
+
+#btn {
+    padding: 10px;
+    margin-top: 20px;
+    width: 130px;
+    text-align: center;
+    background-color: #EB8E8E;
+    border-radius: 10px;
+    color: white;
+}
 /* main  */
 
 /* habilidades  */
-
 #habilidades {
-    height: 400px;
+    height: 350px;
     width: 95%;
     margin: 0 auto;
     margin-top: 35px;
-    background-color: #eeeeee;
+    background-color: #FAFAFA;
+    box-shadow: 3px 3px 30px #D1D1D1;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #habilidades h2 {
-    text-align: center;
-    padding-top: 70px;
-    padding-bottom: 50px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #EB8E8E;
+    margin-right: 200px;
+    width: 25%;
 }
 
 .conteiner-habilidades{
@@ -100,106 +128,95 @@ main {
     flex-wrap: wrap;
 }
 
-.conteiner-habilidades .lista-habilidades + .lista-habilidades{
-    padding-left: 30px;
-}
-
 .lista-habilidades h3 {
-    padding-bottom: 5px;
-    border-bottom: solid black 1.5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
     width: 200px;
 }
-
-
 /* habilidades  */
 
 /* works  */
-
 #work{
     height: 400px;
     width: 95%;
     margin: 0 auto;
     margin-top: 35px;
-    background-color: #eeeeee;
+    background-color: #FAFAFA;
+    box-shadow: 3px 3px 30px #D1D1D1;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
 }
 
-#work h2 {
-    /* position: absolute;
-    z-index: 1;
-    left: 0;
-    right: 0; */
-    /* margin: 0 auto; 
-    text-align: center; */
-    /* margin-top: 70px;
-    padding-bottom: 50px; */
-}
-
-.conteiner-work {
-    /* width: 100%;
-    position: absolute;
-    z-index: 1;
-    left: 0;
-    right: 0;
+#content-work {
+    width: 50%;
     margin: 0 auto; 
-    margin-top: 200px; */
-    
+    margin-top: 70px;
+   
+}
+#content-work h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #EB8E8E;
+    margin-bottom: 20px;
 }
 
-.paragrafo {
-    /* display: flex; */
+#content-work p {
+    width: 80%;
+    margin-bottom: 20px;
 }
 
-.conteiner-work p {
-    /* width: 25%; */
-}
-
-.links {
-    /* display: flex;
-    flex-direction: column; */
+#content-work a {
+    padding-right: 20px;
+    color: black;
 }
 
 #content-aside-work {
-    background-color: #AEB594;
+    background-color: #EB8E8E;
+    border-radius: 0px 10px 10px 0px;
     height: 400px;
     width: 470px;
 }
 
 /* contact  */
-
 #contact{
-    height: 400px;
+    height: 350px;
     width: 95%;
     margin: 0 auto;
     margin-top: 35px;
-    background-color: #eeeeee;
+    background-color: #FAFAFA;
+    box-shadow: 3px 3px 30px #D1D1D1;
+    border-radius: 10px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 
 .conteiner-contact {
-    width: 35%;
-}
-
-.conteiner-contact {
-    width: 35%;
-
+    width: 40%;
 }
 
 #contact h2 {
-    /* text-align: center; */
-    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #EB8E8E;
+    width: 35%;
+    margin-left: 120px;
 }
 
-/* footer  */
+#conteiner-contact a{
+    color: black;
+}
+/* contact  */
 
+/* footer  */
 footer{
     display: flex;
     height: 50px;
-    width: 95%;
+    width: 94%;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
