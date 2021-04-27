@@ -266,7 +266,7 @@ footer a {
         background-color: #EB8E8E;
         height: 200px;
         width: 100%;
-        border-radius: 10px 10px 0px 0px;
+        /* border-radius: 10px 10px 0px 0px; */
     }
 
     #content-main {
@@ -279,46 +279,42 @@ footer a {
         justify-content: center; */
     }
 
-
+    /*  habilidades */
     #habilidades {
         flex-direction: column;
+        /* justify-content: space-evenly; */
     }
 	
     #habilidades h2 {
-        margin-right: 0px;
         width: 100%;
-        font-size: 35px;
+        font-size: 40px;
         text-align: center;
-        margin-bottom: 30px;
-
     }
 
-    .lista-habilidades h3 {
-        width: 100px;
-    }
-
-    .conteiner-habilidades div + div {
-        margin-left: 80px;
-    }
-
-    #work{
+    /*  work */
+    #work {
         flex-direction: column;
-        height: 700px;
-        margin-bottom: 20px;
+        height: 600px;
+        padding-top: 20px;
     }
 
     #content-work {
         text-align: center;
     }
 
+    #content-work h2 {
+        font-size: 40px; 
+    }
+
     #content-work p {
         margin: 0 auto;
+        width: 100%;
         margin-bottom: 15px;
     }
 
     #content-aside-work {
         background-color: #EB8E8E;
-        border-radius: 0px 0px 10px 10px;
+        /* border-radius: 0px 0px 10px 10px; */
         height: 300px;
         width: 100%;
     }
@@ -326,6 +322,7 @@ footer a {
         margin-top: 40px;
     }
 
+    /*  contato */
     #contact{
         flex-direction: column;
         justify-content: center;
@@ -336,11 +333,43 @@ footer a {
     }
     
     #contact h2 {
-        font-size: 30px;
+        font-size: 40px;
         width: 100%;
         text-align: center;
-        margin-left: 0px;
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
 
+    .conteiner-contact {
+        width: 70%;
+    }
+
+}
+
+@media screen  and (max-width: 700px) {
+    main {
+        width: 100%;
+    }
+    
+    #habilidades {
+        height: 600px;
+        width: 100%;
+        justify-content: center;
+        /* align-items:inherit; */
+        /* flex-wrap: wrap; */
+    }
+
+    #habilidades h2 {
+        font-size: 30px; 
+        /* text-align: left; */
+    }
+
+    .conteiner-habilidades{
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }    
+
+    .lista-habilidades {
+        margin-top: 30px;
+    }
 }
